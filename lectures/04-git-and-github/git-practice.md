@@ -59,7 +59,7 @@ git config --global user.name "Mario Juric"
 
 Now we can begin!  Git doesn't automatically snapshot the contents of
 everything in the directory -- you have to tell it what is the set of files
-echo "We’re practicing git here." >> README.mdI want it to snapshot.  We do this using the `git add` command.  For
+I want it to snapshot.  We do this using the `git add` command.  For
 example:
 
 ```
@@ -363,7 +363,7 @@ cd ~/astr302-$GHUSER
 Then, let us create a new repository on github, (named astr302-$GHUSER, where
 $GHUSER is your github username).
 
-Finally, we need to create a "Personal Access Token" -- a special password
+We next need to create a "Personal Access Token" -- a special password
 -- which will allow us to access GitHub from our JupyterHub's command line.
 We do this by going to https://github.com/settings/tokens and creating a new
 token (use the "classic" option, and select all "repo" scopes). Save the
@@ -372,7 +372,7 @@ somewhere secure (e.g. on your laptop, in a password manager, etc.). This
 token is now equivalent to the password to your github account; guard it as
 such.
 
-Finally, let's tell git to temporarily remember this password when we use it
+Next, let's tell git to temporarily remember this password when we use it
 on JupyterHub:
 
 ```
